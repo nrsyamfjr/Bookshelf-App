@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2b6cb0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Form Styling */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #2b6cb0;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+  }
+  
+  button {
+    background-color: #2b6cb0;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2c5282;
+  }
+  
+  button:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  /* Section Title Styling */
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2b6cb0;
+    position: relative;
+  }
+  
+  section h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #2b6cb0;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+  }
+  
+  /* Book List Styling */
+  #incompleteBookList,
+  #completeBookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  [data-testid="bookItem"] {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    position: relative;
+  }
+  
+  [data-testid="bookItem"]:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  
+  [data-testid="bookItemTitle"] {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2b6cb0;
+  }
+  
+  [data-testid="bookItemAuthor"],
+  [data-testid="bookItemYear"] {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 10px;
+  }
+  
+  [data-testid="bookItemDeleteButton"] {
+    background-color: #e53e3e;
+  }
+  
+  [data-testid="bookItemDeleteButton"]:hover {
+    background-color: #c53030;
+  }
+  
+  [data-testid="bookItemEditButton"] {
+    background-color: #ed8936;
+  }
+  
+  [data-testid="bookItemEditButton"]:hover {
+    background-color: #dd6b20;
+  }
+  
+  /* Book Item Button Styling */
+  [data-testid="bookItemIsCompleteButton"] {
+    background-color: #48bb78;
+    margin-right: 10px;
+  }
+  
+  [data-testid="bookItemIsCompleteButton"]:hover {
+    background-color: #38a169;
+  }
+  
+  /* Search Section */
+  #searchBook {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #searchBook input {
+    flex: 1;
+  }
+  
+  #searchBook button {
+    flex: 0;
+  }
+
+  /* Footer Styling */
+footer {
+    background-color: #2b6cb0;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
