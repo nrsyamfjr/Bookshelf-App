@@ -8,8 +8,6 @@ Bookshelf App adalah aplikasi web sederhana yang memungkinkan pengguna untuk men
 5. Pengguna dapat mencari buku berdasarkan judul.
 6. Semua data buku disimpan di localStorage, sehingga aplikasi tidak akan kehilangan data ketika halaman di-refresh.
 # Teknologi yang Digunakan
-1. HTML
-2. CSS
-3. JavaScript
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 # Lisensi
 Bookshelf App © 2024 by Nursyamsiah Fajriah. 
